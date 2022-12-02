@@ -1,13 +1,13 @@
 #include "lib.h"
 
-bool primi(int n){
-int dividi=1, conta=0;
+bool primi(int n) {
+int div=1, conta=0;
   
   while(conta<=1&& dividi<=n/2) {
- if(n%dividi==0){
+ if(n%div==0){
    conta++;
   }
-  dividi++;
+  div++;
   }
   if(conta==1)
   {
@@ -16,4 +16,4 @@ int dividi=1, conta=0;
 }else{
 return false;
   }
-  }
+ }
