@@ -12,6 +12,6 @@ bool b;
   if(b==true)
     cout<<"numero primo"<<endl;
   else if(b==false)
-    cout<<"numero non primo"<<enl;
+    cout<<"numero non primo"<<endl;
   return 0;
 }
